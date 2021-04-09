@@ -1,0 +1,57 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background: url("http://localhost/crud-ternak/public/img/hero-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .btn-warning {
+  font-size: 0.9em;
+}
+
+.brand,
+.navbar-brand {
+  font-weight: 700;
+}
+
+.text-hero {
+  color: #ccc;
+}
+
+.black {
+  background-color: #121212;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.icon {
+  margin-right: 0.7rem;
+  transition: all 0.2s ease-in;
+}
+
+.icon:hover {
+  color: #f0ad4e;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
