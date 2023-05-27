@@ -2,7 +2,7 @@
 
 This is a simple CRUD (Create, Read, Update, Delete) application built using PHP with the MVC (Model-View-Controller) pattern.
 
-![Home Page of TernaKita]("./assets/preview.png")
+![Home Page of TernaKita](./assets/preview.png)
 
 ## Getting Started
 
