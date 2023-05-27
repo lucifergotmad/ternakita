@@ -8,7 +8,7 @@ a {
 
 .jumbotron {
   margin-bottom: 0;
-  background: url("http://localhost/crud-ternak/public/img/hero-image.jpg");
+  background: url("http://ternakita.localhost/img/hero-image.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

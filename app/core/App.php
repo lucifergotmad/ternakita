@@ -9,7 +9,7 @@ class App
     {
         $url = $this->parseUrl();
 
-        if (file_exists('../app/controllers/' . ucwords($url[0]) . ".php")) {
+        if (isset($url[0]) && file_exists('../app/controllers/' . ucwords($url[0]) . ".php")) {
             $this->controller = ucwords($url[0]);
             unset($url[0]);
         }
@@ -36,6 +36,7 @@ class App
         if (isset($_GET['url'])) {
             $url = rtrim($_GET['url'], '/');
             $url = filter_var($url, FILTER_SANITIZE_URL);
+            $url = ltrim($url, '/');
             $url = explode('/', $url);
             return $url;
         }
